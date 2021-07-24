@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy import stats
 
+
 def plot_np_img(img_np, cmap=None):
     '''
     Plot image given as a numpy array
@@ -14,7 +15,7 @@ def visualisation_experiment(vae, imgs):
     '''
     Plot images in 'imgs' using the 'vae' reconstructions and original images
     '''
-    kwargs = {"decode":True}
+    kwargs = {"decode": True}
 
     for img in imgs:
         # Plot original image
