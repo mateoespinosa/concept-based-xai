@@ -105,7 +105,7 @@ def multi_task_cnn(input_shape, num_concpet_values, concept_names=[]):
         optimizer=optimizer,
         loss=[
             tf.keras.losses.SparseCategoricalCrossentropy(from_logits=False)
-            for c in num_concpet_values,
+            for c in num_concpet_values
         ],
         metrics=['acc'],
     )
