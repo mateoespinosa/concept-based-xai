@@ -2,7 +2,7 @@ import h5py
 import itertools
 import numpy as np
 
-from datasets.latentFactorData import LatentFactorData, get_task_data
+from .latentFactorData import LatentFactorData, get_task_data
 
 SHAPES3D_concept_names = [
     'floor_hue',

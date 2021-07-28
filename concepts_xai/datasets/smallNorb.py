@@ -3,7 +3,7 @@ import os
 import PIL
 import tensorflow as tf
 
-from datasets.latentFactorData import LatentFactorData, get_task_data
+from .latentFactorData import LatentFactorData, get_task_data
 
 SMALLNORB_concept_names = [
     'category',

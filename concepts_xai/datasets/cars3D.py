@@ -4,8 +4,7 @@ import PIL
 import scipy.io as sio
 import tensorflow as tf
 
-from datasets.latentFactorData import \
-    LatentFactorData, get_task_data, built_task_fn
+from .latentFactorData import LatentFactorData, get_task_data, built_task_fn
 
 CARS_concept_names = ['elevation', 'azimuth', 'object_type']
 CARS_concept_n_vals = [4, 24, 183]
